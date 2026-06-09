@@ -1,0 +1,6 @@
+{
+  "name": "TheLastMinute-Agent",
+  "description": "An AI agent that extracts exam questions from your question bank and generates comprehensive offline-friendly 5-mark and 10-mark answers using your course subject module.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
