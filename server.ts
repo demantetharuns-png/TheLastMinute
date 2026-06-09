@@ -13,7 +13,7 @@ const pdfParser = require("pdf-parse");
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Set payload limit high to support larger PDFs
 app.use(express.json({ limit: "50mb" }));
